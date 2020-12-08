@@ -33,48 +33,52 @@
 </head>
 
 <body>
-
+   
 
     <!--  ======================= Start Header Area ============================== -->
-
+   
     <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg"style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    Menu
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./aboutus.html">About</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">pages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
+                <a class="navbar-brand" href="#"> <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" style="width: 60%;height: 60%;"></a></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+    
+                </ul>
+            </div>
+              </div>
+            </div>
+          </nav>
 
-                    </ul>
-                </div>
-            </nav>
-        </div>
+     
     </header>
 
     <!--  ======================= End Header Area ============================== -->
@@ -85,12 +89,15 @@
 
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h2 class="title-text">Welcome</h2>
-                        <h6 class="title-text text-uppercase">We are Global Open Iniative Foundation</h6>
-                        <h4 class="title-text ">Non Governmental Organization</h4>
+     
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+            
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="title-text" style="color: black;">Welcome</h2>
+                        <h6 class="title-text text-uppercase" style="color: black;">We are Global Open Iniative Foundation</h6>
+                        <h4 class="title-text " style="color: black;">Non Governmental Organization</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">Join Us
@@ -98,13 +105,31 @@
                                 <button type="button" class="btn button secondary-button text-uppercase">Donate</button>
                             </div>
                         </div>
+                        
                     </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/image3.jpg" alt="banner-img" class="img-fluid">
-                    </div> 
-
+                    <img src="./img/image3.jpg" alt="banner-img" class="img-fluid"style="width: 100%;height: 20%;">
+                    
+                  </div>
+                  <div class="carousel-item" >
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="title-text" style="color: black;">Welcome</h2>
+                        <h6 class="title-text text-uppercase" style="color: black;">We are Global Open Iniative Foundation</h6>
+                        <h4 class="title-text"style="color: black;">Non Governmental Organization</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase" >Join Us
+                                    </button>
+                                <button type="button" class="btn button secondary-button text-uppercase">Donate</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <img src="./img/sadick1.jpg" alt="About us" class="img-fluid" style="width: 100%;height: 20%;">
+                  </div>
+                 
                 </div>
-            </div>
+              </div>
+        
         </section>
         <!--  ======================= End Banner Area =======================  -->
 
